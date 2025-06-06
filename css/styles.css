@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  background: #1e1e1e;
+  color: white;
+}
+#desktop {
+  padding: 1em;
+}
+.icon {
+  display: inline-block;
+  padding: 1em;
+  background: #333;
+  border-radius: 8px;
+  margin: 1em;
+  cursor: pointer;
+}
+.window {
+  display: none;
+  background: #222;
+  border: 2px solid #555;
+  padding: 1em;
+  margin: 1em;
+  width: 400px;
+}
+.title-bar {
+  background: #444;
+  padding: 0.5em;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+textarea, input {
+  width: 100%;
+  background: #111;
+  color: #0f0;
+  border: none;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  font-family: monospace;
+}
