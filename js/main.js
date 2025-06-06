@@ -1,0 +1,1 @@
+// Main JS placeholder for app control

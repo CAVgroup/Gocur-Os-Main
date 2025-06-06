@@ -1,0 +1,1 @@
+print("Welcome to the WebOS Python environment!")
